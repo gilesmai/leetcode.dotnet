@@ -1,4 +1,4 @@
-public class Solution {
+public class EvaluateReversePolishNotation {
     public int EvalRPN(string[] tokens) {
         Stack<int> eval = new();
         eval.Push(int.Parse(tokens[0]));
